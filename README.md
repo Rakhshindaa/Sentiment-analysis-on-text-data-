@@ -32,11 +32,8 @@ A Python-based toolkit for analyzing the sentiment polarity of textual data — 
 | DL Models (optional)| TensorFlow / PyTorch    |
 | Visualization    | matplotlib, seaborn, wordcloud |
 
-Install dependencies:
-```bash
-pip install -r requirements.txt
 
-**## Getting Started**
+## Getting Start
 Clone the repo:
 
 git clone https://github.com/Rakhshindaa/Sentiment-analysis-on-text-data
