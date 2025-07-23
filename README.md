@@ -36,35 +36,9 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 
-Getting Started
+**## Getting Started**
 Clone the repo:
 
-bash
-Copy
-Edit
 git clone https://github.com/Rakhshindaa/Sentiment-analysis-on-text-data
 cd Sentiment-analysis-on-text-data
-Set up a virtual environment (optional but recommended):
 
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-Configure settings (if any) such as model types in config.py (e.g., model = 'vader' or 'logistic_regression').
-
-Prepare your dataset in a CSV/JSON format with at least a text and label column.
-
-Run the main script:
-
-bash
-Copy
-Edit
-python main.py --data data/reviews.csv --model logistic_regression
-Optional: run Jupyter notebook for interactive analysis:
-
-bash
-Copy
-Edit
-jupyter notebook notebooks/sentiment_analysis.ipynb
